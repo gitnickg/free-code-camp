@@ -1,0 +1,68 @@
+/* Apply styling to the body */
+body {
+    background-color: #f4f4f4; /* Light background color for the body */
+    margin: 0; /* Remove default margin */
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Arial, sans-serif; /* Set a common font family for better cross-browser consistency */
+}
+
+.featured-img {
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto 20px;
+    border: 3px solid #471869; /* 3px solid border with the specified color */
+
+}
+
+/* Apply styling to the form container */
+.form-container {
+    text-align: center; /* Center align text within the container */
+    background-color: #fff; /* White background color for the form container */
+    padding: 30px; /* Add padding around the content for spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+/* Style the heading for the product name and offer */
+h1 {
+    color: #471869; /* Purple color for the heading */
+    margin-bottom: 20px; /* Add margin at the bottom for separation */
+}
+
+/* Style the paragraph describing the product */
+p {
+    color: #333; /* Darker text color for better readability */
+    margin-bottom: 30px; /* Add extra margin at the bottom for separation */
+    text-align: center;
+}
+
+/* Style the form and its elements */
+form {
+    display: flex; /* Use flexbox for a simple layout */
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+label {
+    margin-bottom: 10px; /* Add margin at the bottom for separation */
+}
+
+input {
+    padding: 10px; /* Add padding to the input field for a comfortable input area */
+    margin-bottom: 20px; /* Add margin at the bottom for separation */
+}
+
+button {
+    padding: 15px 30px; /* Add padding to the button for a comfortable click/tap area */
+    background-color: #471869; /* Purple color for the button */
+    color: #fff; /* White text color for better contrast */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Add a slight border radius for a rounded appearance */
+    transition: background-color 0.3s; /* Smooth transition for background color changes */
+}
+
+/* Change button background color on hover */
+button:hover {
+    background-color: #2e1045; /* Darker purple when hovered */
+}
